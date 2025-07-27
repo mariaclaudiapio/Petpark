@@ -103,6 +103,19 @@
     {
        justify-content: center;
        row-gap: 4.5rem;
+    }
+}
 
+/* versão celular */
+@media screen and (max-width: 768px)
+{
+    .servicos
+    {
+        text-align: center;        
+    }
+
+    .servicos-titulo
+    {
+        font-size: 2rem;
     }
 }
