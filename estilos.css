@@ -1,13 +1,14 @@
 @import url("./css/cabecalho.css");
 @import url("./css/destaque.css");
 @import url("./css/servicos.css");
+@import url("./css/planos.css");
 
 :root
 {
     /* cores */
     --main-background: #FFFFFF;
     --secondary-background: #FFF5EB;
-    --text-color: #444444;
+    --text-color: #444444;    
     --input-text-color: #B9B9B9;
     --title-color: #EE6451;
     --accent-color: #A2B72B;
