@@ -89,3 +89,20 @@
     transform: scale(1) translatey(50%);
     left: 0.5rem;
 }
+
+/* versão tablet */
+@media screen and (max-width: 1024px)
+{
+    .servicos
+    {
+        padding: 2rem 3rem;
+        box-sizing: border-box;               
+    }
+
+    .servicos-lista
+    {
+       justify-content: center;
+       row-gap: 4.5rem;
+
+    }
+}
