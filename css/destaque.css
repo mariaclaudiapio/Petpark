@@ -27,6 +27,7 @@
     color: var(--accent-color);
 }
 
+/* versão tablet */
 @media screen and (max-width: 1024px)
 {
     .destaque
@@ -36,8 +37,39 @@
         text-align: center;
     }
 
+    .destaque-titulo
+    {
+        font-size: 3rem;
+    }
+
     .banner
     {
         flex-direction: column;
+        max-width: 100%;
+    }
+
+    .navegacao
+    {
+        display: none;
+    }
+}
+
+/* versão celular */
+@media screen and (max-width: 768px)
+{
+    .destaque
+    {
+        padding: 2rem 1rem;
+    }
+
+    .destaque-titulo
+    {
+        font-size: 2.5rem;        
+    }
+
+    .destaque-imagem
+    {
+        object-fit: contain;
+        max-width: 100%;
     }
 }
