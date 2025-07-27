@@ -23,6 +23,7 @@
     color: var(--secondary-background);
     font-family: var(--title-font);
     font-size: 2.43rem;
+    margin-bottom: 1rem;
 }
 
 .lista-planos
@@ -73,4 +74,20 @@
     font-size: 1.25rem;
     font-weight: 500;
     margin: 0.5rem 0;
+}
+
+/* versão tablet */
+@media screen and (max-width: 1024px)
+{
+    .lista-planos
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cartao
+    {
+        max-width: 30%;
+        padding: 1rem 2rem;
+    }
 }
