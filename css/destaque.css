@@ -26,3 +26,18 @@
 {
     color: var(--accent-color);
 }
+
+@media screen and (max-width: 1024px)
+{
+    .destaque
+    {
+        max-width: 100%;
+        padding: 3rem 6rem;
+        text-align: center;
+    }
+
+    .banner
+    {
+        flex-direction: column;
+    }
+}
