@@ -1,0 +1,65 @@
+.ofertas
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: var(--secondary-background);
+    width: 100%;
+    padding: 5rem 0;
+}
+
+.ofertas-titulo
+{
+    font-size: 2.43rem;
+    font-family: var(--title-font);
+    color: var(--title-color);
+}
+
+.carrossel
+{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.carrossel-item
+{
+    background-color: var(--main-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    gap: 1rem;
+}
+
+.carrossel-nome,
+.carrossel-preco
+{
+    font-size: 1.56rem;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.carrossel-nav
+{
+    border: none;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: var(--title-color);
+    color: var(--main-background);
+}
+
+.carrossel-button
+{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 45%;
+}

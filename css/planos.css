@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 5rem;
+    box-sizing: border-box;
 }
 
 .planos-background
@@ -31,6 +32,7 @@
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    object-fit: contain;
 }
 
 .cartao
@@ -43,6 +45,7 @@
     padding: 0.5rem;
     border-radius: 1rem;
     flex-grow: 1;
+    object-fit: contain;
 }
 
 .cartao > h3
@@ -84,10 +87,19 @@
         flex-direction: column;
         align-items: center;
     }
-
+    
     .cartao
     {
-        max-width: 30%;
+        max-width: 35%;
         padding: 1rem 2rem;
+    }
+}
+
+/* versão celular */
+@media screen and (max-width: 768px)
+{
+    .planos-titulo
+    {
+        font-size: 2rem;
     }
 }
