@@ -3,6 +3,9 @@
 @import url("./css/servicos.css");
 @import url("./css/planos.css");
 @import url("./css/ofertas.css");
+@import url("./css/parceiros.css");
+@import url("./css/newsletter.css");
+@import url("./css/rodape.css");
 
 :root
 {
@@ -11,8 +14,8 @@
     --secondary-background: #FFF5EB;
     --text-color: #444444;    
     --input-text-color: #B9B9B9;
-    --title-color: #EE6451;
-    --accent-color: #A2B72B;
+    --title-color: #ee6451;
+    --accent-color: #a3b82b;
 
     /* fontes */
     --text-font: "Poppins", sans-serif;

@@ -1,0 +1,109 @@
+.newsletter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 5rem 0;
+    background-color: var(--secondary-background);
+}
+
+.newsletter h2
+{
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-size: 2.43rem;
+}
+
+.newsletter p
+{
+    font-size: 1.25rem;
+}
+
+.formulario
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.botao-enviar
+{
+    padding: 0.75rem 2rem;
+    background-color: var(--title-color);
+    color: var(--main-background);
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.formulario-input
+{
+    padding: 0.75rem 2rem;
+    border: 1px solid var(--text-color);
+    background-color: transparent;
+    flex: 1 0 12.5rem;
+    border-radius: 2rem;
+}
+
+.formulario-input::placeholder
+{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.formulario-input:user-valid
+{
+    border: 2px solid var(--accent-color);
+}
+
+.formulario-input:user-invalid
+{
+    border: 2px solid var(--title-color);
+}
+
+.grupo-opcoes
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.opcao
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.opcao input[type="checkbox"]
+{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.opcao input[type="checkbox"] + span
+{
+    position: absolute;
+    left: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid var(--text-color);
+    background-color: transparent;
+    border-radius: 0.25rem;
+}
+
+.opcao input[type="checkbox"]:checked + span
+{
+    background-color: var(--title-color);
+}
