@@ -36,4 +36,9 @@
 .container
 {
     width: 75rem;
+
+    @media (max-width: 1024px)
+    {
+        width: 40.5rem;
+    }
 }

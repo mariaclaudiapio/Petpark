@@ -24,6 +24,12 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
+
+    @media (max-width: 1024px)
+    {
+        height: 18.75rem;
+        justify-content: center;
+    }
 }
 
 .servicos-lista > li > .link
@@ -88,34 +94,4 @@
 {
     transform: scale(1) translatey(50%);
     left: 0.5rem;
-}
-
-/* versão tablet */
-@media screen and (max-width: 1024px)
-{
-    .servicos
-    {
-        padding: 2rem 3rem;
-        box-sizing: border-box;               
-    }
-
-    .servicos-lista
-    {
-       justify-content: center;
-       row-gap: 4.5rem;
-    }
-}
-
-/* versão celular */
-@media screen and (max-width: 768px)
-{
-    .servicos
-    {
-        text-align: center;        
-    }
-
-    .servicos-titulo
-    {
-        font-size: 2rem;
-    }
 }

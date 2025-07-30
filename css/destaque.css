@@ -5,6 +5,11 @@
     align-items: center;
     padding: 5rem 0;
     background-color: var(--secondary-background);
+
+    @media (max-width: 1024px)
+    {
+        padding: 2rem 5rem;
+    }
 }
 
 .banner
@@ -12,6 +17,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 1024px)
+    {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .destaque-titulo
@@ -25,51 +36,4 @@
 .destaque-titulo > span
 {
     color: var(--accent-color);
-}
-
-/* versão tablet */
-@media screen and (max-width: 1024px)
-{
-    .destaque
-    {
-        max-width: 100%;
-        padding: 3rem 6rem;
-        text-align: center;
-    }
-
-    .destaque-titulo
-    {
-        font-size: 3rem;
-    }
-
-    .banner
-    {
-        flex-direction: column;
-        max-width: 100%;
-    }
-
-    .navegacao
-    {
-        display: none;
-    }
-}
-
-/* versão celular */
-@media screen and (max-width: 768px)
-{
-    .destaque
-    {
-        padding: 2rem 1rem;
-    }
-
-    .destaque-titulo
-    {
-        font-size: 2.5rem;        
-    }
-
-    .destaque-imagem
-    {
-        object-fit: contain;
-        max-width: 100%;
-    }
 }
